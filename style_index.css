@@ -1,0 +1,59 @@
+body {
+  background-image: url('images/index/fundo_meveta.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.txtTitulo{
+	text-align: center;
+	font-size: 400%;
+	color: #C71585;
+	font-weight: 1000;
+
+}
+		/*Altera barra de navegacao*/
+
+#myNavbar a:hover{
+	background: none;
+	color: white;
+}
+#rightNavbar a:hover{
+	color: #006400;
+}
+.navbar-nav > li >a{
+  color: black;
+  font-weight: bold;
+}
+.navbar-nav > li:hover >a{
+	background: white;
+}
+.navbar-brand{
+	color: black;
+	font-weight: bold;
+}
+.navbar-header a:hover{
+	color: white;
+	background-color: none;
+}
+.txtCentro{
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+		/* Estiliza rodapé */
+.footer-container{
+	background-color: #FA8072;
+	text-align: center;
+}
+.social-media a{
+	color: black;
+	font-size: 200%;
+	margin-right: 1%;
+}
+.social-media a:hover {
+ color: #9400D3;
+ font-weight: bold;
+ border-color: #B1B1B1;
+}
