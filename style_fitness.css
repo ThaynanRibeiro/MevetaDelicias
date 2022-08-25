@@ -13,6 +13,12 @@ body {
 }
 		/*Altera barra de navegacao*/
 
+.icon-bar {
+  background: black;
+}
+.navbar-toggle:hover{
+  background: white;
+}
 #myNavbar a:hover{
 	background: none;
 	color: white;
@@ -44,8 +50,9 @@ body {
 .txtCentro{
 	font-size: 130%;
 	font-weight: bold;
-	text-align: center;
+	text-align: right;
 	color: black;
+  width: 50%;
 }
 
 		/* Estiliza rodapé */
@@ -72,10 +79,10 @@ body {
 }
 .map-responsive{
   margin-top: 5%;
-  margin-left: 0%;
+  margin-left: 5%;
   overflow:hidden;
   position: relative;
-  padding-right: 100px;
+  padding-right: 40%;
 }
 .map-responsive iframe{
   left:0;
@@ -90,7 +97,8 @@ body {
 .titulo{
 	color: #556B2F;
 	text-align: center;
-	text-shadow: 7px 7px 7px;
+	text-shadow: 3px 3px 3px;
+  font-family: 'Libre Baskerville', serif;
 }	
 
 		/*Modificando img */
@@ -105,21 +113,23 @@ body {
   margin: 10%;
   margin-bottom: 0%;
   border-radius: 5%;
+  transition: all 0.5s;
+  cursor: pointer; 
+}
+.imagem:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 .imgEsquerda{
-	text-align: left;
-	max-height: 500px;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px;
-	
+  transition: all 0.5s;
 }
 .imgCentro{
-	max-height: 500px;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px;
 }
 .imgDireita{
-	max-height: 500px;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px;
 }
@@ -127,4 +137,86 @@ figcaption {
   display: table-caption;
   caption-side: top;
   margin-top: 10px;
+}
+
+              /*Responsividade*/              
+@media screen and (min-width:400px){
+  .txtCentro{
+    font-size: 98%;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    width: 100%;
+  }
+  .right-col{
+    margin-top: -20%;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .map-responsive{
+    margin-top: 5%;
+    margin-left: 5%;
+    overflow:hidden;
+    position: relative;
+    width: 95%;
+    left: -5;
+  }
+  .imagem {
+    position: relative;
+    text-align: center;
+    margin: 9%;
+    margin-bottom: 0%;
+    border-radius: 5%;
+    transition: all 0.5s;
+    cursor: pointer; 
+  }
+}
+@media screen and (min-width:800px){
+  .txtCentro{
+    font-size: 100%; 
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    width: 100%;
+  }
+  .right-col{
+    margin-top: -20%;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .map-responsive{
+    margin-top: 5%;
+    margin-left: 5%;
+    overflow:hidden;
+    position: relative;
+    padding-right: 40%;
+    width: 120%;
+    left: -30%;
+  }
+
+}
+@media screen and (min-width:1300px){
+  .txtCentro{
+    font-size: 100%; 
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    width: 90%;
+  }
+  .right-col{
+    margin-top: -20%;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .map-responsive{
+    margin-top: 5%;
+    margin-left: 10%;
+    overflow:hidden;
+    position: relative;
+    padding-right: 80%;
+    width: 150%;
+  }
 }
