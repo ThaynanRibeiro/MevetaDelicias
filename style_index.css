@@ -69,7 +69,7 @@ body {
 .footer-container{
 	background-color: #FA8072;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 30%;
   width: 100%;
 }
 .social-media a{
@@ -102,8 +102,8 @@ body {
 .titulo{
 	color: #C71585;
 	text-align: center;
-	text-shadow: 3px 3px 3px;
-  font-family: 'Libre Baskerville', serif;
+	text-shadow: 1px 1px 1px;
+  font-family: Cambria, Georgia, serif;
 }	
 
 		/*Modificando img */
@@ -122,8 +122,8 @@ body {
   cursor: pointer; 
 }
 .imagem:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(1.1);
 }
 .imgEsquerda{
 	border-radius: 5%;
@@ -141,6 +141,7 @@ figcaption {
   display: table-caption;
   caption-side: top;
   margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
               /*Responsividade*/              
