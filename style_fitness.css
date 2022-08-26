@@ -65,7 +65,7 @@ body {
 .footer-container{
 	background-color: #556B2F;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 30%;
 }
 .social-media a{
 	color: black;
@@ -97,8 +97,8 @@ body {
 .titulo{
 	color: #556B2F;
 	text-align: center;
-	text-shadow: 3px 3px 3px;
-  font-family: 'Libre Baskerville', serif;
+	text-shadow: 1px 1px 1px;
+  font-family: Cambria, Georgia, serif;
 }	
 
 		/*Modificando img */
@@ -117,8 +117,8 @@ body {
   cursor: pointer; 
 }
 .imagem:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(1.1);
 }
 .imgEsquerda{
 	border-radius: 5%;
