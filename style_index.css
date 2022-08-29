@@ -151,17 +151,19 @@ figcaption {
               /*Responsividade*/              
 @media screen and (min-width:300px){
   .txtCentro{
-    font-size: 98%;
+    font-size: 70%;
     font-weight: bold;
     text-align: right;
     color: black;
-    width: 100%;
+    width: 70%;
   }
   .right-col{
-    margin-top: -20%;
+    margin-top: -30%;
     position: relative;
     display: inline-block;
     float: right;
+    padding-right: -10%;
+    margin-right: 0%;
   }
   .map-responsive{
     margin-top: 5%;
@@ -174,37 +176,19 @@ figcaption {
   .imagem {
     position: relative;
     text-align: center;
-    margin: 9%;
+    margin: 7%;
     margin-bottom: 0%;
     border-radius: 5%;
     transition: all 0.5s;
     cursor: pointer; 
+    left: -5%;
   }
-}
-@media screen and (min-width:800px){
-  .txtCentro{
-    font-size: 100%; 
-    font-weight: bold;
-    text-align: right;
+  .social-media a{
     color: black;
-    width: 100%;
-  }
-  .right-col{
-    margin-top: -20%;
+    font-size: 200%;
+    margin-right: 5%;
     position: relative;
-    display: inline-block;
-    float: right;
   }
-  .map-responsive{
-    margin-top: 5%;
-    margin-left: 5%;
-    overflow:hidden;
-    position: relative;
-    padding-right: 40%;
-    width: 120%;
-    left: -30%;
-  }
-
 }
 @media screen and (min-width:1300px){
   .txtCentro{
