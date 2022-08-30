@@ -132,7 +132,6 @@ body {
 .imgEsquerda{
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px;
-  transition: all 0.5s;
 }
 .imgCentro{
 	border-radius: 5%;
@@ -146,6 +145,7 @@ figcaption {
   display: table-caption;
   caption-side: top;
   margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;                                               
 }
 
               /*Responsividade*/              
@@ -182,6 +182,7 @@ figcaption {
     transition: all 0.5s;
     cursor: pointer; 
     left: -5%;
+    width: 17%;
   }
   .social-media a{
     color: black;
