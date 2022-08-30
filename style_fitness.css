@@ -176,6 +176,7 @@ figcaption {
     transition: all 0.5s;
     cursor: pointer; 
     left: -5%;
+    width: 100%;
   }
   .social-media a{
     color: black;
